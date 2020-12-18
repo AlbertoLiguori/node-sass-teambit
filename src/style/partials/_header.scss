@@ -21,9 +21,21 @@ header{
 
   main{
     .left-section{
-      border:1px solid black;
       flex-direction: column;
       justify-content: space-around;
+
+
+      .buttons-container{
+        justify-content: space-between;
+        align-items: center;
+        width:50%;
+
+        span{
+          margin:10px;
+        }
+
+      };
+
     };
     .right-section{
       img{

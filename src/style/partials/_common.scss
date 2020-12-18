@@ -3,6 +3,8 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+  font-family: "lato";
+  color:$font-color;
 }
 
 .emc2{
@@ -10,7 +12,7 @@
 }
 
 .container{
-  width:1170px;
+  width:90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,4 +51,23 @@ flex:4;
   content:"";
   display: table;
   clear:both;
+}
+
+.button{
+  background-color: #32488D;
+  color:white;
+  width:200px;
+  height:40px;
+  border:0px;
+  border-radius:5px;
+  font-size:14px;
+  padding:5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:10px;
+
+  img{
+    height:100%;
+  }
 }

@@ -1,9 +1,11 @@
-/* LAYOUT */
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;
 
-* {
+700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "lato";
+  color: #7F14D4;
 }
 
 .emc2 {
@@ -11,7 +13,7 @@
 }
 
 .container {
-  width: 1170px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,7 +54,42 @@
   clear: both;
 }
 
+.button {
+  background-color: #32488D;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.button img {
+  height: 100%;
+}
+
 /* FONTS */
+
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
 
 header nav {
   border-bottom: 1px solid black;
@@ -72,9 +109,18 @@ header nav .right-nav li {
 }
 
 header main .left-section {
-  border: 1px solid black;
   flex-direction: column;
   justify-content: space-around;
+}
+
+header main .left-section .buttons-container {
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+header main .left-section .buttons-container span {
+  margin: 10px;
 }
 
 header main .right-section img {
@@ -83,8 +129,14 @@ header main .right-section img {
 
 .section-1,
 .section-2 {
-  background-color: #FBE8D4;
+  background-color: #0414B3;
   text-align: center;
+}
+
+.section-1 h2,
+.section-2 h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-1 ul,
@@ -100,10 +152,15 @@ header main .right-section img {
   align-items: center;
 }
 
-.section-1 ul img,
-.section-2 ul img {
+.section-1 ul li img,
+.section-2 ul li img {
   height: 100px;
   width: auto;
+}
+
+.section-1 ul li .special-img-container,
+.section-2 ul li .special-img-container {
+  justify-content: center;
 }
 
 .section-3 .left-section img,
@@ -113,5 +170,9 @@ header main .right-section img {
 .section-5 .left-section img,
 .section-5 .right-section img {
   width: 100%;
+}
+
+.last-section {
+  background-color: #0414B3;
 }
 
