@@ -135,6 +135,12 @@ header main .right-section img {
   width: 100%;
 }
 
+@media screen and (max-width: 992px) {
+  main {
+    flex-direction: column;
+  }
+}
+
 .section-1 {
   background-color: #0414B3;
   text-align: center;
@@ -206,6 +212,40 @@ header main .right-section img {
   width: 100%;
 }
 
+@media screen and (max-width: 992px) {
+  .section-2 > .row,
+  .section-4 > .row {
+    flex-direction: column;
+  }
+
+  .section-2 > .row .right-section,
+  .section-4 > .row .right-section {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-2 > .row .left-section,
+  .section-4 > .row .left-section {
+    display: none;
+  }
+
+  .section-3 > .row,
+  .section-5 > .row {
+    flex-direction: column;
+  }
+
+  .section-3 > .row .left-section,
+  .section-5 > .row .left-section {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .section-3 > .row .right-section,
+  .section-5 > .row .right-section {
+    display: none;
+  }
+}
+
 .last-section {
   background-color: #0414B3;
 }
@@ -253,6 +293,17 @@ header main .right-section img {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 992px) {
+  .section-container {
+    width: 100%;
+  }
+
+  .paragraph {
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+}
+
 footer {
   margin-bottom: 50px;
 }
@@ -279,5 +330,24 @@ footer .right-section ul {
 
 footer .right-section li {
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  footer .row {
+    flex-direction: column;
+  }
+
+  .left-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .right-section {
+    justify-content: space-between;
+  }
+
+  .last-footer-column-container {
+    display: none;
+  }
 }
 

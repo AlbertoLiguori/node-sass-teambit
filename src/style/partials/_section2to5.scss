@@ -1,4 +1,5 @@
 .section-2 ,.section-4{
+
   .left-section{
     img{
       width:100%
@@ -36,4 +37,32 @@
     }
   }
 
+}
+
+@media screen and (max-width: 992px){
+  .section-2 > .row ,.section-4 > .row{
+    flex-direction: column;
+
+    .right-section{
+      text-align: center;
+      justify-content: center;
+    };
+
+    .left-section{
+      display: none;
+    }
+  }
+
+  .section-3 > .row ,.section-5 > .row{
+    flex-direction: column;
+
+    .left-section{
+      text-align: center;
+      justify-content: center;
+    };
+
+    .right-section{
+      display: none;
+    }
+  }
 }

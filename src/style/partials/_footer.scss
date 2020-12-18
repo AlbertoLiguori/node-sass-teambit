@@ -1,6 +1,6 @@
 footer{
   margin-bottom: 50px;
-  
+
   .left-section{
     justify-content: space-between;
     img{
@@ -23,4 +23,23 @@ footer{
   }
 
 
+}
+
+@media screen and (max-width: 992px){
+  footer .row{
+    flex-direction: column;
+  }
+
+  .left-section{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .right-section{
+    justify-content: space-between;
+  }
+
+  .last-footer-column-container{
+    display: none;
+  }
 }

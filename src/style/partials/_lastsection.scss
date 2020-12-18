@@ -45,9 +45,24 @@
       };
 
     };
-    
+
     span{
       margin-bottom: 50px;
     }
   }
+}
+
+
+@media screen and (max-width: 992px){
+.section-container{
+  width:100%;
+};
+
+
+
+.paragraph{
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
 }
