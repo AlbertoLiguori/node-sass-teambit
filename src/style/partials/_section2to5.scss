@@ -1,0 +1,43 @@
+.section-2 ,.section-4{
+  .left-section{
+    img{
+      width:100%
+    };
+  }
+  .right-section{
+    .sub-right-section{
+      width: 50%;
+      flex-direction:column;
+      justify-content: space-between;
+      img{
+        width:100%;
+      }
+    }
+  }
+}
+
+.last-section{
+  background-color: $primary-bg-color
+}
+
+.section-3, .section-5{
+
+  .right-section{
+    img{
+      width:100%
+    };
+  };
+
+  .left-section{
+    justify-content: flex-end;
+    .sub-left-section{
+      width: 50%;
+      flex-direction:column;
+      justify-content: space-between;
+      img{
+        width:100%;
+      }
+    }
+  }
+
+}

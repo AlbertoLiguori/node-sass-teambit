@@ -1,4 +1,4 @@
-.section-1,.section-2{
+.section-1{
   background-color: $primary-bg-color;
   text-align: center;
 
@@ -17,15 +17,17 @@
       align-items: center;
 
       img{
-      height:100px;
-      width:auto;
+        height:100px;
+        width:auto;
+      }
     };
 
-    .special-img-container{
-      justify-content: center;
-    }
-
-
-    }
   };
+
+  .special-container{
+    justify-content: center;
+    height:400px;
+    margin-top: 100px;
+  };
+
 }
