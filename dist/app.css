@@ -139,6 +139,16 @@ header main .right-section img {
   main {
     flex-direction: column;
   }
+
+  .left-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-section > div {
+    margin-bottom: 50px;
+  }
 }
 
 .section-1 {
