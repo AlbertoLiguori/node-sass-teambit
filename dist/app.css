@@ -253,3 +253,31 @@ header main .right-section img {
   margin-bottom: 50px;
 }
 
+footer {
+  margin-bottom: 50px;
+}
+
+footer .left-section {
+  justify-content: space-between;
+}
+
+footer .left-section img {
+  height: 70px;
+}
+
+footer .right-section {
+  justify-content: space-around;
+}
+
+footer .right-section h5 {
+  margin-bottom: 40px;
+}
+
+footer .right-section ul {
+  list-style: none;
+}
+
+footer .right-section li {
+  margin-bottom: 15px;
+}
+

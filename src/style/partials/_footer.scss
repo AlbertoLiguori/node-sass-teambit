@@ -1,0 +1,26 @@
+footer{
+  margin-bottom: 50px;
+  
+  .left-section{
+    justify-content: space-between;
+    img{
+      height:70px;
+    };
+  };
+
+  .right-section{
+    justify-content: space-around;
+
+    h5{
+      margin-bottom: 40px;
+    }
+    ul{
+      list-style: none;
+    }
+    li{
+      margin-bottom: 15px;
+    }
+  }
+
+
+}
