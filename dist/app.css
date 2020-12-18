@@ -184,10 +184,6 @@ header main .right-section img {
   width: 100%;
 }
 
-.last-section {
-  background-color: #0414B3;
-}
-
 .section-3 .right-section img,
 .section-5 .right-section img {
   width: 100%;
@@ -208,5 +204,52 @@ header main .right-section img {
 .section-3 .left-section .sub-left-section img,
 .section-5 .left-section .sub-left-section img {
   width: 100%;
+}
+
+.last-section {
+  background-color: #0414B3;
+}
+
+.last-section .section-container {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.last-section .section-container .title-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.last-section .section-container .paragraph-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.last-section .section-container .paragraph-container .paragraph {
+  padding: 20px;
+}
+
+.last-section .section-container .paragraph-container .paragraph p {
+  margin-bottom: 20px;
+}
+
+.last-section .section-container .paragraph-container .signature-container {
+  padding: 20px;
+}
+
+.last-section .section-container .paragraph-container .signature-container .img-container img {
+  margin-right: 20px;
+}
+
+.last-section .section-container .paragraph-container .signature-container .text-container span {
+  display: block;
+}
+
+.last-section .section-container span {
+  margin-bottom: 50px;
 }
 

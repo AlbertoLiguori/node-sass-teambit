@@ -1,0 +1,53 @@
+.last-section{
+
+  background-color: $primary-bg-color;
+
+  .section-container{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .title-container{
+      text-align: center;
+      margin-top: 50px;
+    };
+
+    .paragraph-container{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width:50%;
+      background-color: $secondary-bg-color;
+      border-radius: 10px;
+
+      .paragraph{
+        padding:20px;
+        p{
+          margin-bottom:20px;
+        };
+      };
+
+      .signature-container{
+        padding:20px;
+
+        .img-container{
+
+          img{
+            margin-right: 20px;
+          };
+
+        };
+
+        .text-container{
+          span{
+            display: block;
+          };
+        };
+      };
+
+    };
+    
+    span{
+      margin-bottom: 50px;
+    }
+  }
+}
