@@ -1,0 +1,52 @@
+/* LAYOUT */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.emc2{
+  position:relative;
+}
+
+.container{
+  width:1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.row{
+  width:100%;
+}
+
+
+.flex-1{
+  float:left;
+  flex:1;
+}
+
+.flex-2{
+float:left;
+flex:2;
+}
+
+.flex-3{
+float:left;
+flex:3;
+}
+
+.flex-4{
+float:left;
+flex:4;
+}
+
+/* CLEARFIX */
+.row::after{
+  content:"";
+  display: table;
+  clear:both;
+}

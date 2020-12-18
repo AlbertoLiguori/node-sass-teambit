@@ -1,0 +1,21 @@
+.section-1,.section-2{
+  background-color: $primary-bg-color;
+  text-align: center;
+
+  ul{
+    justify-content: space-between;
+    align-items: baseline;
+    list-style: none;
+
+    li{
+      flex-direction: column;
+      align-items: center;
+    };
+
+    img{
+    height:100px;
+    width:auto;
+
+    }
+  };
+}
